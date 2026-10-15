@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+*.out
+ecommerce
+a.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
