@@ -39,6 +39,14 @@ make run
 
 Then choose a role (1/2/3) and follow the menus. Enter `0` to exit a menu.
 
+### The cool edition
+
+`make` also builds `./ecommerce-cool`. It needs no `setup-dirs`: it creates
+its own data tree under `$HOME/ecommerce` on first run (override with
+`ECOMMERCE_HOME=...` or `-DBASE_PATH=...`). Run it in a real terminal to see
+colors and animations; run it with output redirected and it falls back to a
+clean, escape-free mode. Details: [13-cool-ui.md](13-cool-ui.md).
+
 ## Running in this sandbox
 
 The sandbox user is not `george-emad`, so `/home/george-emad` may not exist. Either:
